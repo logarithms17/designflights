@@ -17,6 +17,7 @@ import { useState } from 'react'
 
 
 const WorkSamples = () => {
+  
   const [isSwiped, setIsSwiped] = useState(false)
 
   const toggleIsSwiped = () => {
