@@ -1,5 +1,7 @@
 import right_arrow from '../../assets/right_arrow.png'
 
+import { Link } from 'react-router-dom'
+
 const WhyUs = () => {
   return (
       <section className="container mx-auto grid grid-cols-3 gap-24">
@@ -17,7 +19,7 @@ const WhyUs = () => {
 
               <div className=''>
               <button className="bg-primary text-white p-8 rounded-xl flex gap-4 text-xl relative overflow-hidden h-[60px] w-[450px] text-center items-center cursor-pointer hover:bg-blue-700">
-                  TAKE A BRAND DISCOVERY TEST
+                  <Link to="/contact">TAKE A BRAND DISCOVERY TEST</Link>
                   <img src={right_arrow} alt="" className='absolute top-[-10px] right-[-20px]'/>
               </button>
               </div>

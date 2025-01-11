@@ -23,7 +23,7 @@ const Packages = ({ packages }: { packages: Package }) => {
       <ul className="pb-5 ">
         {packages.popularity === "popular" && <p className='absolute top-[-16px] left-1/4 border-2 border-[#071C99] rounded-md p-1 font-bold text-sm bg-white'>MOST POPULAR</p>}
             {packages.perks.map(perk =>
-              <li className='flex gap-2 '>
+              <li key={perk} className='flex gap-2 '>
                 
                 <img src={arrow_right} alt="" className="w-6 h-6" />
                 {perk}

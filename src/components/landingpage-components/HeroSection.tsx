@@ -1,5 +1,7 @@
 import right_arrow from '../../assets/right_arrow.png'
 
+import { Link } from 'react-router-dom'
+
 const HeroSection = () => {
   return (
       <section className='relative flex flex-col gap-10 container mx-auto'>
@@ -9,7 +11,9 @@ const HeroSection = () => {
           
           <div className=''>
               <button className="bg-primary text-white p-8 rounded-xl flex gap-4 text-xl relative overflow-hidden h-[50px] w-[380px] text-center items-center cursor-pointer hover:bg-blue-700">
-                  BOOK YOUR TICKET TODAY
+                  <Link to="/contact">
+                    BOOK YOUR TICKET TODAY
+                  </Link>
                   <img src={right_arrow} alt="" className='absolute top-[-10px] right-[-20px]'/>
               </button>
           </div>

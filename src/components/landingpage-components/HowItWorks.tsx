@@ -1,6 +1,8 @@
 import map from '../../assets/map.png'
 import right_arrow from '../../assets/right_arrow.png'
 
+import { Link } from 'react-router-dom'
+
 
 const HowItWorks = () => {
 
@@ -59,7 +61,7 @@ const HowItWorks = () => {
                     <p className="text-primary pb-5 text-center ">Let us help you craft a visual identity that commands attention and converts leads. Get started with DesignFlights today and see the difference professional design can make.</p>
                     <div className=''>
                     <button className="bg-primary text-white p-8 rounded-xl flex gap-4 text-xl relative overflow-hidden h-[50px] w-[380px] text-center items-center cursor-pointer hover:bg-blue-700">
-                        BOOK YOUR TICKET TODAY
+                        <Link to="/contact">BOOK YOUR TICKET TODAY</Link>
                         <img src={right_arrow} alt="" className='absolute top-[-10px] right-[-20px]'/>
                     </button>
           </div>

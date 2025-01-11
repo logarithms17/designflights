@@ -5,6 +5,7 @@ import Services from "../components/landingpage-components/Services"
 import WhyUs from "../components/landingpage-components/WhyUs"
 import InFlightOffers from "../components/landingpage-components/InFlightOffers"
 import HowItWorks from "../components/landingpage-components/HowItWorks"
+import Footer from "../components/landingpage-components/Footer"
 
 const LandingPage = () => {
     return (
@@ -16,6 +17,7 @@ const LandingPage = () => {
             <WhyUs />
             <InFlightOffers />
             <HowItWorks />
+            <Footer />
         </div>
     
   )
