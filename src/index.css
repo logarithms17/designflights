@@ -1,0 +1,103 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+    html {
+        box-sizing: border-box;
+        margin: 0;
+        padding: 0;
+    }
+    .bg-primary {
+        background-color: #071C99;
+    }
+
+    .text-primary {
+        color: #071C99;
+    }
+
+    h1{
+        font-family: Inter;
+        font-size: 127px;
+        font-weight: 600;
+        line-height: 135px;
+        letter-spacing: -0.05em;
+        text-align: left;
+        text-underline-position: from-font;
+        text-decoration-skip-ink: none;
+    }
+
+    .section-title {
+        font-family: Inter;
+            font-size: 23px;
+            font-weight: 500;
+            line-height: 35.74px;
+            letter-spacing: 2px;
+            text-align: left;
+            text-underline-position: from-font;
+            text-decoration-skip-ink: none;
+            color: #D9D9D9
+    }
+
+    h2 {
+        font-family: Inter;
+            font-size: 79.6px;
+            font-weight: 600;
+            line-height: 84.61px;
+            letter-spacing: -0.05em;
+            text-align: left;
+            text-underline-position: from-font;
+            text-decoration-skip-ink: none;
+    }
+
+    h3{
+        font-family: Inter;
+        font-size: 34px;
+        font-weight: 600;
+        line-height: 41.16px;
+        letter-spacing: -0.05em;
+        text-align: left;
+        text-underline-position: from-font;
+        text-decoration-skip-ink: none;
+
+    }
+
+    .number{
+        font-family: Inter;
+        font-size: 18px;
+        font-weight: 700;
+        line-height: 21.79px;
+        letter-spacing: -1.022160530090332px;
+        text-align: left;
+        text-underline-position: from-font;
+        text-decoration-skip-ink: none;
+
+    }
+
+    h4{
+        font-family: Inter;
+        font-size: 22.6px;
+        font-weight: 600;
+        line-height: 27.36px;
+        letter-spacing: -1.022160530090332px;
+        text-align: left;
+        text-underline-position: from-font;
+        text-decoration-skip-ink: none;
+
+    }
+
+    .price{
+        font-family: Inter;
+        font-size: 41.58px;
+        font-weight: 700;
+        line-height: 50.34px;
+        letter-spacing: -1.022160530090332px;
+        text-align: left;
+        text-underline-position: from-font;
+        text-decoration-skip-ink: none;
+
+    }
+
+}
